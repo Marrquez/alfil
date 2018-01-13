@@ -12,11 +12,13 @@ import { AppRoutingModule, routedComponents } from './app-routing.module';
  * Components
 * */
 import { HomeComponent } from './components/home/home.component';
+import { PoliciesComponent } from './components/policies/policies.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PoliciesComponent
   ],
   imports: [
     BrowserModule,

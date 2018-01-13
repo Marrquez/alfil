@@ -1,0 +1,1 @@
+{"version":3,"file":"policies.component.js","sourceRoot":"","sources":["policies.component.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAA0C;AAO1C;IALA;QAME,UAAK,GAAG,qBAAqB,CAAC;IAChC,CAAC;IAFY,iBAAiB;QAL7B,gBAAS,CAAC;YACT,QAAQ,EAAE,UAAU;YACpB,WAAW,EAAE,2BAA2B;YACxC,MAAM,EAAE,CAAC,OAAO,CAAC,2BAA2B,CAAC,CAAC;SAC/C,CAAC;OACW,iBAAiB,CAE7B;IAAD,wBAAC;CAAA,AAFD,IAEC;AAFY,8CAAiB"}

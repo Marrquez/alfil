@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app',
@@ -8,4 +9,14 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  constructor(private router: Router){};
+
+  goToPolicies(){
+    this.router.navigate(['policies', {}]);
+  };
+
+  goToHome(){
+    this.router.navigate(['home', {}]);
+  };
 }
