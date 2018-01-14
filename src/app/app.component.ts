@@ -11,12 +11,4 @@ export class AppComponent {
   title = 'app';
 
   constructor(private router: Router){};
-
-  goToPolicies(){
-    this.router.navigate(['policies', {}]);
-  };
-
-  goToHome(){
-    this.router.navigate(['home', {}]);
-  };
 }

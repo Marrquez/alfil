@@ -19,6 +19,7 @@ var app_routing_module_1 = require("./app-routing.module");
 * */
 var home_component_1 = require("./components/home/home.component");
 var policies_component_1 = require("./components/policies/policies.component");
+var menu_component_1 = require("./components/menu/menu.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -27,7 +28,8 @@ var AppModule = /** @class */ (function () {
             declarations: [
                 app_component_1.AppComponent,
                 home_component_1.HomeComponent,
-                policies_component_1.PoliciesComponent
+                policies_component_1.PoliciesComponent,
+                menu_component_1.MenuComponent
             ],
             imports: [
                 platform_browser_1.BrowserModule,

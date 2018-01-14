@@ -21,4 +21,4 @@ var PoliciesComponent = /** @class */ (function () {
     return PoliciesComponent;
 }());
 exports.PoliciesComponent = PoliciesComponent;
-//# sourceMappingURL=policies.component.js.map
+//# sourceMappingURL=menu.component.js.map

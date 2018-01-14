@@ -17,14 +17,6 @@ var AppComponent = /** @class */ (function () {
         this.title = 'app';
     }
     ;
-    AppComponent.prototype.goToPolicies = function () {
-        this.router.navigate(['policies', {}]);
-    };
-    ;
-    AppComponent.prototype.goToHome = function () {
-        this.router.navigate(['home', {}]);
-    };
-    ;
     AppComponent = __decorate([
         core_1.Component({
             selector: 'app',
