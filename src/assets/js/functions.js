@@ -389,7 +389,7 @@ function set_section_to_active(target_section_id, clicked_menu_item_id, called_o
             var section_custom_background = (section_custom_background_attr !== undefined && section_custom_background_attr != "") ? section_custom_background_attr : $("body").attr("data-default-background-img"); // use #outer-background-container default image if custom background not set
 
             // if target section wrapper has custom background set
-            if (section_custom_background !== undefined && section_custom_background != "")
+            /*if (section_custom_background !== undefined && section_custom_background != "")
             {
                 var transition_speed = (called_on_scroll != true) ? 1500 : 550; // crossfading speed should be faster when function called on scroll
 
@@ -397,7 +397,7 @@ function set_section_to_active(target_section_id, clicked_menu_item_id, called_o
                   $.vegas({ src:section_custom_background, fade:transition_speed, });
                   if (overlay_enabled) $.vegas('overlay', { src:'assets/images/theme_images/background-image-overlay-full.png', opacity:overlay_opacity });
                 });
-            }
+            }*/
             // end: if target section wrapper has custom background set
         }
         // end: change custom background
